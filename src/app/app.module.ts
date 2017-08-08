@@ -6,12 +6,14 @@ import {BasicHighlightDirective} from './basic-highlight/basic-highlight.directi
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {BetterHighlightDirective} from './better-highlight/better-highlight.directive';
+import { UnlessDirective } from './unless/unless.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicHighlightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
